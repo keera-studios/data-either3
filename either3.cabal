@@ -16,7 +16,7 @@ Synopsis:            A version of Data.Either with 3 arguments.
 -- Description:         
 
 -- URL for the project homepage or repository.
-Homepage:            https://libraries.keera.es
+Homepage:            http://keera.es/blog/community
 
 -- The license under which the package is released.
 License:             BSD3
