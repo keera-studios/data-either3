@@ -1,3 +1,8 @@
+2015-10-24 Ivan Perez <ivan.perez@keera.co.uk>
+        * Adds project to travis-ci.org.
+        * Adds new either3 function.
+        * Version bump (0.1.1).
+
 2014-06-04 Ivan Perez <ivan.perez@keera.co.uk>
 
         * Adds project to hudson-backed continuous integration server.
