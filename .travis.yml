@@ -2,6 +2,6 @@ language: haskell
 ghc:
  - 7.6
  - 7.8
- - 7.10
+ - '7.10'
 notifications:
  email: true
