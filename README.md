@@ -1,7 +1,5 @@
 This is a very simple datatype. Either3 a b c holds either an **a**, or a **b**, or a **c**.
-
-# Usage
-
+## Usage
 Create Either3 values:
 ``` haskell
 GHCi, version 7.10.2: http://www.haskell.org/ghc/  :? for help
@@ -28,7 +26,7 @@ Prelude Data.Either3> :type (5 + either3 fromIntegral realToFrac id x)
 (5 + either3 fromIntegral realToFrac id x) :: Double
 ```
 
-# Stability
+## Stability
 
 * Status: stable
 * Build status: [![Build Status](https://travis-ci.org/keera-studios/data-either3.svg?branch=master)](https://travis-ci.org/keera-studios/data-either3)
