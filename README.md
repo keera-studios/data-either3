@@ -30,4 +30,5 @@ Prelude Data.Either3> :type (5 + either3 fromIntegral realToFrac id x)
 
 * Status: stable
 * Build status: [![Build Status](https://travis-ci.org/keera-studios/data-either3.svg?branch=master)](https://travis-ci.org/keera-studios/data-either3)
-* Actively tested on GHC 7.6, 7.8 and 7.10.
+* Actively tested on GHC 7.6, 7.8 and 7.10, should work on all OSs with every
+  Haskell compiler/interpreter.
