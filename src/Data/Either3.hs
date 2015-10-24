@@ -6,6 +6,8 @@ module Data.Either3 (
                     , isFirst
                     , isSecond
                     , isThird
+                    -- * Transform
+                    , either3
                     )
   where
 
@@ -27,3 +29,13 @@ isSecond _          = False
 isThird :: Either3 a b c -> Bool
 isThird (Third _) = True
 isThird _         = False
+
+-- | Transform an Either3 to another value
+either3 :: (a -> d)
+        -> (b -> d)
+        -> (c -> d)
+        -> Either3 a b c
+        -> d
+either3 h _ _ (First  v) = h v
+either3 _ h _ (Second v) = h v
+either3 _ _ h (Third  v) = h v
