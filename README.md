@@ -1,4 +1,4 @@
-This is a very simple datatype. Either3 a b c holds either an a, or a b, or a c.
+This is a very simple datatype. Either3 a b c holds either an **a**, or a **b**, or a **c**.
 
 # Usage
 
