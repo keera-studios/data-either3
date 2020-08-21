@@ -3,29 +3,29 @@
 -- Maintainer  : support@keera.co.uk
 
 cabal-version: >= 1.10
-build-type:          Simple
+build-type:    Simple
 
-name:                data-either3
-version:             0.1.1
-author:              Ivan Perez
-maintainer:          support@keera.co.uk
-homepage:            http://keera.co.uk/blog/community
-license:             BSD3
-license-file:        LICENSE
-category:            Data
-synopsis:            A version of Data.Either with 3 arguments.
-stability:           Experimental
+name:          data-either3
+version:       0.1.1
+author:        Ivan Perez
+maintainer:    support@keera.co.uk
+homepage:      http://keera.co.uk/blog/community
+license:       BSD3
+license-file:  LICENSE
+category:      Data
+synopsis:      A version of Data.Either with 3 arguments.
+stability:     Experimental
 
 
 -- You can disable the hlint test suite with -f-test-hlint
 flag test-hlint
   default: False
-  manual: True
+  manual:  True
 
 -- You can disable the haddock coverage test suite with -f-test-doc-coverage
 flag test-doc-coverage
   default: False
-  manual: True
+  manual:  True
 
 
 library
@@ -82,7 +82,7 @@ test-suite haddock-coverage
       False
   else
     build-depends:
-        base >= 4 && < 5
+        base        >= 4 && < 5
       , directory
       , filepath
       , process
